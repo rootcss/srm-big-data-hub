@@ -1,0 +1,173 @@
+@font-face{font-family: 'roboto';src:url("../fonts/Roboto.ttf");}
+body{
+	margin: 0px;
+	font-family: roboto;
+}
+#wrapper{
+	width: 1280px;
+	height: 700px;
+	background: #ccc;
+	margin: 0px auto;
+	margin-top: 0px;
+	box-shadow: 0px 0px 20px rgb(180,180,180);
+}
+#header{
+	margin: 0px auto;
+	width: 100%;
+	height: 180px;
+	background: #fafafa;
+}
+#upper{
+	margin: 0px auto;
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid black;
+}
+#lower{
+	margin: 0px auto;
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid black;	
+	background: #666666;
+}
+#left-logo{
+	width: 250px;
+	height: 100%;
+	float: left;
+	padding-left: 80px;
+	background: url('../images/bdh.png') no-repeat center center /auto 100% transparent;
+}
+#right-logo{
+	width: 200px;
+	height: 100%;
+	float: right;
+	background: url('../images/srmlogo.png') no-repeat center center /auto 95% transparent;
+	/*box-shadow: 0px 0px 10px #ccc;*/
+}
+#navbar{
+	float: left;
+	width: 100%;
+	height: 100%;
+	clear: both;
+}
+#navbar ul{
+	list-style-type:none;
+}
+#navbar ul li {
+	float:left;
+	padding-left: 40px;
+}
+#navbar ul li a{
+	font-size:25px;
+	float:left;
+	display:block;
+	text-decoration: none;
+	padding-left: 50px;
+	color: #fff;
+}
+#navbar ul li a:hover{
+	cursor: pointer;
+}	
+#container{
+	margin: 0px auto;
+	min-height: 550px;
+	width: 100%;
+	background: #fafafa;
+}
+#footer{
+	margin: 0px auto;
+	height: 40px;
+	width: 100%;
+	border-top: 2px solid #dddddd;
+}
+.text1{
+	font-size: 70px;
+	font-family: roboto;
+	text-shadow: 1px 1px 8px #c0c0c0;
+}
+.text2{
+	font-size: 90px;
+	font-family: roboto;
+	text-shadow: 1px 1px 8px #c0c0c0;
+}
+.text3{
+	text-decoration: none;
+	font-size: 35px;
+}
+.text3 a{
+	text-decoration: none;
+	font-size: 35px;
+}
+.footer-text{
+	font-size: 22px;
+	float: right;
+	color: #000;
+}
+.footer-text-left{
+	font-size: 22px;
+	float: left;
+	color: #000;
+}
+.links{
+	color: white;
+	font-size: 23px;
+}
+.nav-content1{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	margin-top: 59px;
+	margin-left: 50px;
+}
+#over{
+	position: fixed;
+	background: rgba(0,0,0,0.5);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+}
+.onclick-content {
+	padding: 10px;
+}
+#contact-box{
+	width: 300px;
+	height: 225px;
+	box-shadow: 0px 0px 20px #c0c0c0;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 25px;
+}
+#bigdata-content{
+	width: 500px;
+	height: 250px;
+	box-shadow: 0px 0px 20px #c0c0c0;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 25px;	
+}
+#about-content{
+	width: 1100px;
+	height: 400px;
+	box-shadow: 0px 0px 20px #c0c0c0;
+	/*border: 1px solid #ccc;*/
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 22px;
+	text-align: justify;	
+	overflow-y:auto; 
+}
+#recruitment-box{
+	width: 1100px;
+	height: 400px;
+	box-shadow: 0px 0px 20px #c0c0c0;
+	/*border: 1px solid #ccc;*/
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 22px;
+	text-align: justify;	
+	overflow-y:auto; 
+}
